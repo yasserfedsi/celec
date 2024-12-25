@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Sign up to GitHub - GitHub</title>
+</head>
+
+<body>
+    <div class="container">
+        <!-- Left Section (for image only) -->
+        <div class="left-section">
+            <img src="./assets/signup.jpg" alt="GitHub Graphics">
+        </div>
+
+        <!-- Right Section -->
+        <div class="right-section">
+            <form class="signup-form" action="sign-up">
+                <h2>Sign up to GitHub</h2>
+                <label for="email">
+                    Email
+                    <input type="email" id="email" placeholder="Email" required>
+                </label>
+                <label for="password">
+                    Password
+                    <input type="password" id="password" placeholder="Password" required>
+                    <p>Password should be at least 15 characters OR at least 8 characters including a number and a
+                        lowercase letter.</p>
+                </label>
+                <label for="username">
+                    Username
+                    <input type="text" id="username" placeholder="Username" required>
+                    <p>Username may only contain alphanumeric characters or single hyphens and cannot begin or end with
+                        a hyphen.</p>
+                </label>
+                <p class="terms">
+                    By creating an account, you agree to the <a href="#">Terms of Service</a>. For more information
+                    about GitHub's privacy practices, see the <a href="#">GitHub Privacy Statement</a>.We'll
+                    occasionally send you account-related emails.
+                </p>
+                <button type="submit">Continue →</button>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
